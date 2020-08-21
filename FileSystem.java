@@ -3,6 +3,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/*
+* This project was a collaboration between Amman Nega and
+* Matt Johnson.
+*/
 public class FileSystem
 {
     private static Directory directory = new Directory();
