@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Directory
+comment1.params=name\ index
+comment1.target=void\ addElement(java.lang.String,\ int)
+comment2.params=name
+comment2.target=void\ removeElement(java.lang.String)
+comment3.params=name
+comment3.target=int\ getIndex(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

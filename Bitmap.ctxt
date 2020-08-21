@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Bitmap
+comment0.text=\r\n\ Creates\ a\ bitmap\ where\ each\ index\ is\ used\ to\ represent\ whether\r\n\ a\ direct\ block\ is\ available\ for\ use\ or\ not.\r\n\r\n\ @author\ (Amman\ Nega)\r\n\ @version\ (August\ 20,\ 2020)\r\n
+comment1.params=
+comment1.target=Bitmap()
+comment2.params=
+comment2.target=int\ findAvailableBlock()
+comment3.params=index
+comment3.target=void\ setBlock(int)
+comment3.text=\r\n\ setter\ method\ for\ when\ block\ is\ requested.\r\n\ this\ method\ should\ never\ be\ called\ directly,\r\n\ only\ called\ by\ findAvailableBlock()\ once\ it\r\n\ is\ known\ which\ index\ is\ free\r\n
+comment4.params=index
+comment4.target=void\ removeBlock(int)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

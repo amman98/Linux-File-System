@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=FileSystem
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ format()
+comment3.params=arr
+comment3.target=void\ newFile(java.lang.String[])
+comment4.params=arr
+comment4.target=void\ modifyFile(java.lang.String[])
+comment5.params=arr
+comment5.target=void\ deleteFile(java.lang.String[])
+comment6.params=arr
+comment6.target=void\ deleteBlocks(java.lang.String[])
+comment7.params=
+comment7.target=void\ print()
+numComments=8
