@@ -63,7 +63,7 @@ public class Inode
      */
     public void deleteFile(Bitmap array) {
         // simply calls deleteBlocks() for every block allocated
-        deleteBlocks(array, blockCount - 1);
+        deleteBlocks(array, blockCount);
     }
 
     public String toString()
