@@ -24,6 +24,7 @@ public class Inode
     }
 
     public void addBlocks(Bitmap array, int numBlocks) {
+        aTime = mTime = dtf.format(LocalDateTime.now());
         for(int i = 0; i < numBlocks; i++) {
             int blockPointer = array.findAvailableBlock();
             try {
@@ -51,6 +52,7 @@ public class Inode
      * this method would be called when using DB filename numblocks command.
      */
     public void deleteBlocks(Bitmap array, int numBlocks) {
+        aTime = mTime = dtf.format(LocalDateTime.now());
         for(int i = 0; i < numBlocks; i++) {
             int blockPtr = directBlocks[blockCount - 1];
             array.removeBlock(blockPtr);
@@ -68,6 +70,7 @@ public class Inode
 
     public String toString()
     {
+        aTime = dtf.format(LocalDateTime.now());
         String data = "INode\n";
         data += "\tMode: " + mode + "\n";
         data += "\tUID: " + uid + "\n";
